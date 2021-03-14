@@ -1,72 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="keywords" content="calendarios, diario, diarioadiario, noticias, eventos, fechas, periodico"/>
-    <link rel="icon" href="./logo/logo-diario.png" sizes="16x16" type="image/png" />
-    <link rel="stylesheet" href="./css/index.css"/>
-    <link href="https://fonts.googleapis.com/css2?family=Sansita:wght@700&display=swap" rel="stylesheet" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <meta
+      name="keywords"
+      content="calendarios, diario, diarioadiario, noticias, eventos, fechas, periodico"
+    />
+    <link
+      rel="icon"
+      href="./logo/logo-diario-min.png"
+      sizes="16x16"
+      type="image/png"
+    />
+    <link rel="stylesheet" href="./css/index.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sansita:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
     <title>DiarioAdiario Inicio</title>
-</head>
+  </head>
 
-<body class="body">
+  <body class="body">
     <div>
-        <div class="div-logo"><img class="logo-diario" src="./logo/logo-diario.png" /></div>
-        <h2 class="titlePrincipal">
-            Bienvenido a la pagina de DiarioAdiario, en la cual te informaras de
-            eventos que suceden dia a dia
-        </h2>
-
-        <div class="nav">
-            <input type="checkbox" id="nav-check" />
-            <div class="nav-header">
-                <a class="nav-title" href="./index.html">DiarioAdiario</a>
-            </div>
-            <div class="nav-btn">
-                <label for="nav-check">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </label>
-            </div>
-
-            <div class="nav-links">
-                <a href="./pages/calendario.html">Calendario</a>
-                <a href="./pages/sobre.html">Sobre DiarioAdiario</a>
-                <a href="./pages/noticias.html">Noticias</a>
-                <a href="./pages/faq.html">FAQ y contacto</a>
-            </div>
+      <div class="nav navbar">
+        <input type="checkbox" id="nav-check" />
+        <div class="nav-header">
+          <a class="div-logo"
+            ><img class="logo-diario" src="./logo/logo-diario-min.png"
+          /></a>
+          <a class="nav-title" href="./index.html">DiarioAdiario</a>
+        </div>
+        <div class="nav-btn">
+          <label for="nav-check">
+            <span></span>
+            <span></span>
+            <span></span>
+          </label>
         </div>
 
-        <h3 class="titleTable">DiarioAdiario</h3>
-        <div>
-            <table class="table table-sm table-dark">
-                <thead>
-                  <tr>
-                    <th scope="col">Tipo de Producto</th>
-                    <th scope="col">Tipos de Noticias</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <th>DiarioAdiario</th>
-                    <th>Social</th>
-                  </tr>
-                  <tr>
-                    <th></th>
-                    <td>Deportes</td>
-                  </tr>
-                  <tr>
-                    <th></th>
-                    <td>Politica</td>
-                  </tr>
-                </tbody>
-              </table>
+        <div class="nav-links">
+          <a href="./pages/calendario.html">Calendario</a>
+          <a href="./pages/sobre.html">Sobre DiarioAdiario</a>
+          <a href="./pages/noticias.html">Noticias</a>
+          <a href="./pages/faq.html">FAQ y contacto</a>
         </div>
+      </div>
+
+      <div class="container-title">
+      <h2 class="titlePrincipal">
+        Bienvenido a la pagina de DiarioAdiario, en la cual te informaras de
+        eventos que suceden dia a dia
+      </h2>
     </div>
-</body>
 
+
+      <div class='tabla'>
+        <table class="table table-sm table-dark">
+          <thead>
+            <tr>
+              <th scope="col">Tipo de Producto</th>
+              <th scope="col">Tipos de Noticias</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th>DiarioAdiario</th>
+              <th>Social</th>
+            </tr>
+            <tr>
+              <th></th>
+              <td>Deportes</td>
+            </tr>
+            <tr>
+              <th></th>
+              <td>Politica</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </body>
 </html>
